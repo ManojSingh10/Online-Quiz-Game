@@ -1,0 +1,167 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+
+  background-color:#f0f0f0;
+  font-family:helvetica;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:red;
+}
+
+
+#rules{
+
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  height:400px;
+  width: 500px;
+  font-size: 20px;
+}
+#rules p{
+  color:darkmagenta;
+}
+a{
+  display:inline-block;
+  color:#ad5482;
+  text-decoration:none;
+  font-weight:bold;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+#basic{
+  position:absolute;
+  height: 550px;
+  width: 640px;
+  left:20px;
+  top:45px;
+  bottom: 20px;
+}
+
+#bg{
+  position:relative;
+  top:20px;
+  height:600px;
+  width:1200px;
+  background:url('https://i.imgur.com/3eP9Z4O.png') center no-repeat;
+  background-size:cover;
+  margin-left:auto;
+  margin-right:auto;
+  border:#fff 15px solid;
+}
+#heading{
+  position: relative;
+  height:30px;
+  width:100%;
+  top: 20px;
+  color:#90c843;
+  text-align: center;
+  font-weight: bold;
+
+  font-size: 20px;
+
+}
+
+.module{
+  position:absolute;
+  top:15%;
+  height:70%;
+  width:450px;
+  left:700px;
+  margin-right:auto;
+  border-radius:5px;
+  background:RGBA(255,255,255,1);
+
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+
+}
+.module2{
+  position:relative;
+  top:15%;
+  height:50%;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5px;
+  background:RGBA(255,255,255,1);
+
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+}
+
+
+
+.form{
+  float:left;
+  height:86%;
+  width:100%;
+  box-sizing:border-box;
+  padding:40px;
+}
+
+.textbox{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+}
+#check{
+  position: relative;
+  bottom:20px;
+
+  font-size: 15px;
+}
+#login{
+  position: relative;
+  font-size: 16px;
+  bottom: 18px;
+}
+.thespan{
+  position: relative;
+  font-size: 15px;
+  color: red;
+  bottom: 20px;
+}
+
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:black;
+   font-size: 16px;
+}
+
+.button{
+  height:40px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  background:#90c843;
+  color:#FFF;
+  font-weight:bold;
+  font-size: 12pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+
+.button:hover{
+  background:#80b438;
+
+}
